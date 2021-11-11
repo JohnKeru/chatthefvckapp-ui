@@ -1,0 +1,32 @@
+.loginForm {
+  display: grid;
+  width: 500px;
+  margin-top: 200px;
+  padding: 20px;
+}
+.loginForm > input {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 13px 15px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+  color: #4848ff;
+  font-size: 17px;
+  outline: none;
+}
+.loginForm > button {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 10px;
+  padding: 15px 15px;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  outline: none;
+  color: #fff;
+  background-color: #4848ff;
+  cursor: pointer;
+}

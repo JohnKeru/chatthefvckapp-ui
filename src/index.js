@@ -1,17 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+import ReactDOM from 'react-dom'
+import React from 'react'
+import App from './App'
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    <React.StrictMode>
+        <App/>
+    </React.StrictMode>,
+    document.getElementById('root')
+)
+/*
+sock.onopen = function() {
+    console.log('open');
+  }
+  stompClient.connect({}, function (frame) {
+     console.log('Connected: ' + frame);
+     stompClient.subscribe('/topic/public', function (greeting) {
+       console.log(greeting);
+       //you can execute any function here
+     });
+  });
+  stompClient.send("/app/sendMessage", {},"your message here");
+*/
